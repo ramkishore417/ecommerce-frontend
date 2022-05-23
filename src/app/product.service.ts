@@ -7,9 +7,9 @@ import { Product } from './product';
 @Injectable({
   providedIn: 'root'
 })
-export class ProductService {
+export class ProductService { 
 
-  private apiServerUrl= environment.apiBaseUrl;
+  private apiServerUrl = environment.apiBaseUrl;
 
   constructor(private httpClient: HttpClient) { }
 
